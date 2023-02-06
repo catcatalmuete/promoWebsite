@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -10,40 +10,110 @@ body, html {
 }
 
 body {
-	background-color: #222;
-	font-family: 'Lobster', cursive;
-	color: #fff;
-}
-
-p {
-	color: #ff0072;
+	background-image: url("eeaao.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 2000px;
+	font-family: 'Archivo Black', sans-serif;
 }
 
 h1 {
-	margin: 0px;
+	color: white;
+  	text-align: center;
+  	font-size: 50px;
+  	letter-spacing: 25px;
+  	background: rgba(255, 122, 89, .7);
 }
 
-.highlight {
-	padding: 20px;
-	background-color: #dadb0d;
+p {
+	color: white;
+	text-align: center;
 }
 
-#specialPara {
-	color: blue;
-	width: 200px;
-	height: 200px;
-	border: 1px solid white;
-}
-
-.parent {
+#steph {
 	position: relative;
-	width: 300px;
-	height: 300px;
-	background-color: #ff0072;
+	bottom: 325px;
+	font-size: 30px;
+	letter-spacing: 15px;
+	background: rgba(135, 206, 235, .7);
 }
 
-.child {
-	position: absolute;
-	top: 50px;
-	background-color: #dadb0d;
+#everything {
+	position: relative;
+	top: 200px;
+	font-size: 75px;
+	letter-spacing: 25px;
+	background: rgba(255, 122, 89, .7);
+}
+
+#kejamie {
+	position: relative;
+	top: 270px;
+	font-size: 30px;
+	letter-spacing: 15px;
+	background: rgba(135, 206, 235, .7);
+}
+
+#everywhere {
+	position: relative;
+	top: 700px;
+	font-size: 75px;
+	letter-spacing: 25px;
+	background: rgba(255, 122, 89, .7);
+}
+
+#yeoh {
+	position: relative;
+	top: 1075px;
+	font-size: 30px;
+	letter-spacing: 15px;
+	background: rgba(135, 206, 235, .7);
+}
+
+#aao {
+	position: relative;
+	top: 1250px;
+	font-size: 75px;
+	letter-spacing: 25px;
+	background: rgba(255, 122, 89, .7);
+}
+
+.block1 { 
+  height: 225px;
+  width: 325px;
+  position: relative;
+  bottom: 225px;
+  left: 40px;
+  border: 3px solid white;
+  background-color: rgba(253, 185, 0, .4);
+}
+
+.quote1 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+.block2 { 
+  height: 350px;
+  width: 325px;
+  position: relative;
+  left: 1075px;
+  top: 225px;
+  border: 3px solid white;
+  background-color: rgba(255, 229, 124, .2);
+}
+
+.quote2 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 25px;
 }
